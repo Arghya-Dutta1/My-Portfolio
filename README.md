@@ -30,16 +30,6 @@ It showcases sections like About, Skills, Projects, Coding Profiles, Education, 
 
 ---
 
-## 📸 Screenshots
-
-Here are some screenshots of the website:
-
-![Home](./assets/home-screenshot.png)
-![Skills](./assets/skills-screenshot.png)
-![Projects](./assets/projects-screenshot.png)
-
----
-
 ## 🚀 Installation
 
 To run the project locally, follow these steps:
