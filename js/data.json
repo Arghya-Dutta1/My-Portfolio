@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "title": "Local Mart",
+            "description": "Local Mart is an online marketplace for local vendors vendors that increases the visibility of local vendors by registering them on the website and listing their products online.",
+            "image": "https://github.com/user-attachments/assets/6a7cd53b-730c-4f24-86a5-2ff9c9a2d4f1",
+            "github": "https://github.com/Arghya-Dutta1/Online-Local-Mart",
+            "demo": "https://github.com/Arghya-Dutta1/Online-Local-Mart#readme"
+        },
+        {
+            "title": "Expense Tracker",
+            "description": "A responsive web application for tracking income and expenses with dynamic Chart.js visualizations.",
+            "image": "https://github.com/user-attachments/assets/bdb80009-582b-40fc-9127-2a5ef335f348",
+            "github": "https://github.com/Arghya-Dutta1/expense-tracker",
+            "demo": "https://arghya-dutta1.github.io/Expense-Tracker/"
+        },
+        {
+            "title": "Live Cricket Score Extension",
+            "description": "A browser extension that displays live cricket scores using the TwelveData API.",
+            "image": "https://github.com/user-attachments/assets/5ca0b09b-af8d-4121-9bc6-4ea6fa506d85",
+            "github": "https://github.com/Arghya-Dutta1/cricket-score-extension",
+            "demo": "#"
+        },
+        {
+            "title": "File Organizer",
+            "description": "A Java-based file organizer that categorizes files into predefined folders using HashMap optimization.",
+            "image": "https://github.com/user-attachments/assets/164627bd-f469-4bab-a12c-8f76e9f6c209",
+            "github": "https://github.com/Arghya-Dutta1/file-organizer",
+            "demo": "#"
+        },
+        {
+            "title": "Tic Tac Toe Game",
+            "description": "A React-based Tic Tac Toe game with a responsive UI and personalized player messages.",
+            "image": "https://github.com/user-attachments/assets/8c6e6773-94b7-40e5-a228-1d13b2f685f9",
+            "github": "https://github.com/Arghya-Dutta1/tic-tac-toe",
+            "demo": "https://arya-tictactoe.netlify.app/"
+        },
+        {
+            "title": "Task Manager",
+            "description": "A CLI-based Task Manager built with C++ that uses priority queues for task organization.",
+            "image": "https://github.com/user-attachments/assets/bca5e960-062f-41df-8707-86ea6897f317",
+            "github": "https://github.com/Arghya-Dutta1/task-manager",
+            "demo": "https://task-manager-demo.com"
+        }
+    ]
+}

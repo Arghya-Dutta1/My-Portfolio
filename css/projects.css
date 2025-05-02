@@ -1,0 +1,130 @@
+/* Projects Section */
+.projects {
+    /* background-color: #1a1b26; Tokyo Night dark background */
+    background-color: #1a1b26; 
+    padding: 4rem 0;
+}
+
+.projects h2 {
+    color: #7aa2f7; /* Bright blue accent */
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project-card {
+    background: #24283b; /* Slightly lighter dark background */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(122, 162, 247, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(122, 162, 247, 0.1);
+}
+
+.project-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 30px rgba(122, 162, 247, 0.2);
+    border-color: rgba(122, 162, 247, 0.3);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(122, 162, 247, 0.1);
+    transition: transform 0.4s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+.project-info {
+    padding: 1.8rem;
+}
+
+.project-info h3 {
+    color: #bb9af7; /* Purple accent */
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.project-info h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 40px;
+    height: 2px;
+    background: #7aa2f7;
+    transition: width 0.3s ease;
+}
+
+.project-card:hover .project-info h3::after {
+    width: 60px;
+}
+
+.project-info p {
+    color: #a9b1d6; /* Soft text color */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.project-links a {
+    padding: 0.6rem 1.2rem;
+    background: #414868; /* Muted dark button */
+    color: #c0caf5;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-links a:hover {
+    background: #7aa2f7;
+    color: #1a1b26;
+    transform: translateY(-2px);
+}
+
+/* Add these keyframes for loading animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project-card {
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+}
+
+/* Stagger the animation for each card */
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }

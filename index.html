@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arghya Dutta - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/coding.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">Arghya</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#coding-profiles">Coding Profiles</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero gradient-bg">
+        <div class="hero-container">
+            <div class="profile-container" data-aos="fade-right">
+                <div class="profile-circle">
+                    <img src="images/profile pic.jpg" alt="Arghya Dutta">
+                    <div class="halo"></div>
+                </div>
+            </div>
+            <div class="hero-content" data-aos="fade-left">
+                <h1>Hi, I'm <span class="typewriter highlight"></span></h1>
+                <p>Full Stack Developer | Computer Science Engineer</p>
+                <div class="contact-info">
+                    <!-- <a href="tel:+911029691207"><i class="fas fa-phone"></i> +91 1029691207</a> -->
+                    <!-- <a href="mailto:arghydutta2002@gmail.com"><i class="fas fa-envelope"></i> arghydutta2002@gmail.com</a> -->
+                    <a href="https://linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com" target="_blank" rel="noopener"><i class="fab fa-github"></i> Github</a>
+                </div>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 data-aos="fade-up">About Me</h2>
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right">
+          <img src="https://github-readme-stats.vercel.app/api?username=arghya-dutta1&show_icons=true&theme=tokyonight&locale=en" alt="Arghya Dutta" />
+        
+            <img src="https://github-profile-trophy.vercel.app/?username=arghya-dutta1&theme=algolia&column=5&rank=-?" alt="Arghya Dutta" />
+          </div>
+        <div class="about-text" data-aos="fade-left">
+          <pre>
+            I am a passionate Computer Science student with strong
+            problem-solving skills and a deep interest in full-stack
+            development.
+            
+            With experience in various programming languages and
+            frameworks, I enjoy creating efficient and user-friendly
+            applications.
+          </pre>
+          <!-- <div class="soft-skills">
+            <h3>Soft Skills:</h3>
+            <ul>
+              <li>Critical Thinking</li>
+              <li>Leadership</li>
+              <li>Collaboration & Teamwork</li>
+              <li>Adaptability</li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <div class="row-divider"></div>
+
+    <!-- Skills Section -->
+    <!-- <section id="skills" class="skills">
+      <h2 data-aos="fade-up">Skills</h2>
+      <div id="skills-globe-container" data-aos="fade-up"></div>
+      <div class="skills-container">
+        <div class="skill-category" data-aos="fade-up">
+          <h3>Languages & Databases</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>Java</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>C, C++</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Python</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="82"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>MySQL, PostgreSQL</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3>Technologies & Frameworks</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>Tailwind CSS</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Bootstrap</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>React</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="82"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Next.js</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up">
+          <h3>Cloud Platforms & Tools</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span>GCP</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>AWS</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Git & Github</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span>Docker</span>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="78"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section id="skills" class="skills">
+  <h2 data-aos="fade-up">Skills</h2>
+  <div class="skills-container">
+    <div class="globe-container" data-aos="fade-right">
+      <div id="skills-globe-container"></div>
+    </div>
+    <div class="skills-list-container" data-aos="fade-left">
+      <div class="skill-category">
+        <h3>Languages & Databases</h3>
+        <ul class="skills-list">
+          <li>Java</li>
+          <li>C</li>
+          <li>C++</li>
+            <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>MySQL</li>
+          <li>PostgreSQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+      
+      <div class="skill-category">
+        <h3>Technologies & Frameworks</h3>
+        <ul class="skills-list">
+          <li>Tailwind CSS</li>
+          <li>Bootstrap</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Express.js</li>
+        </ul>
+      </div>
+      
+      <div class="skill-category">
+        <h3>Cloud Platforms & Tools</h3>
+        <ul class="skills-list">
+          <li>GCP</li>
+          <li>AWS</li>
+          <li>Azure</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Docker</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row-divider"></div>
+
+    <!-- Coding Profiles Section -->
+    <section id="coding-profiles" class="coding-profiles">
+        <h2 data-aos="fade-up">Coding Profiles</h2>
+        <div class="profiles-container">
+            <!-- First Row -->
+            <div class="profiles-row">
+                <!-- LeetCode Card -->
+                <div class="coding-profile-card" data-aos="fade-right" data-aos-delay="100" data-platform="leetcode">
+                    <img src="https://leetcard.jacoblin.cool/arghyadutta2002?ext=contest" alt="LeetCode" />
+                    <h3>LeetCode</h3>
+                    <div class="stats">
+                        <p>Problems Solved: <span class="problems-solved">650+</span></p>
+                        <p>Max Rating: <span class="max-rating">1759</span></p>
+                        <p>Total Contests: <span class="total-contests">25</span></p>
+                    </div>
+                    <a href="#" target="_blank" class="profile-link">View Profile</a>
+                </div>
+    
+                <!-- CodeForces Card -->
+                <div class="coding-profile-card" data-aos="fade-up" data-aos-delay="120" data-platform="codeforces">
+                    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Arghya_D&theme=tokyonight" alt="CodeForces" />
+                    <h3>CodeForces</h3>
+                    <div class="stats">
+                        <p>Rank: <span class="rank">Pupil</span></p>
+                        <p>Max Rating: <span class="max-rating">1247</span></p>
+                        <p>Total Contests: <span class="total-contests">6</span></p>
+                    </div>
+                    <a href="#" target="_blank" class="profile-link">View Profile</a>
+                </div>
+    
+                <!-- GeeksForGeeks Card -->
+                <div class="coding-profile-card" data-aos="fade-left" data-aos-delay="140" data-platform="geeksforgeeks">
+                    <img src="https://gfgstatscard.vercel.app/arghyadurwum" alt="GFG" />
+                    <h3 style="margin-top: 45px;">GeeksForGeeks</h3>
+                    <div class="stats">
+                        <p>Problems Solved: <span class="problems-solved">250+</span></p>
+                        <p>Coding Score: <span class="score">867</span></p>
+                        <p>Rank: <span class="rank">1000</span></p>
+                    </div>
+                    <a href="#" target="_blank" class="profile-link">View Profile</a>
+                </div>
+            </div>
+                   
+    
+            <!-- Row Divider -->
+            <!-- <div class="row-divider"></div> -->
+    
+            <!-- Second Row -->
+            <div class="profiles-row">
+                <!-- CodeChef Card -->
+                <div class="coding-profile-card" data-aos="fade-right" data-aos-delay="400" data-platform="codechef">
+                    <h3>CodeChef</h3>
+                    <div class="stats">
+                        <p>Rating: <span class="stars">2⭐</span></p>
+                        <p>Max Rating: <span class="max-rating">1540</span></p>
+                        <p>Current Rating: <span class="current-rating">1540</span></p>
+                        <p>Total Contests: <span class="total-contests">5</span></p>
+                        <p>Max Streak: <span class="max-rating">50+</span></p>
+                    </div>
+                    <a href="#" target="_blank" class="profile-link">CodeChef Profile</a>
+                </div>
+    
+                <!-- Overall Stats Card -->
+                <div class="coding-profile-card" data-aos="fade-left" data-aos-delay="450" data-platform="overall">
+                    <h3>Overall Statistics</h3>
+                    <div class="stats">
+                        <p>Total Problems Solved: <span class="total-problems">1000+</span></p>
+                        <p>Total Contests: <span class="total-contests">36</span></p>
+                        <p>Active Platforms: <span class="active-platforms">4</span></p>
+                        <p>Best Platform: <span class="best-platform">LeetCode</span></p>
+                    </div>
+                    <div class="overall-badges">
+                        <p>🏆 Highest Rating: LeetCode 1759</p>
+                        <p>⭐ Most Active: LeetCode (25 Contests)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="row-divider"></div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 data-aos="fade-up">Projects</h2>
+        <div class="projects-grid" id="projects-container">
+          <!-- Projects will be loaded dynamically from data.json -->
+        </div>
+      </section>
+
+      <div class="row-divider"></div>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+      <h2 data-aos="fade-up">Education</h2>
+      <div class="education-container">
+        <div class="education-card" data-aos="fade-up">
+          <h3>Lovely Professional University, Jalandhar</h3>
+          <p>B.Tech - Computer Science and Engineering</p>
+          <p class="grade">CGPA - 8.93</p>
+          <p class="location">Jalandhar, Punjab</p>
+          <p class="duration">July 2022 - June 2026</p>
+        </div>
+
+        <div class="education-card" data-aos="fade-up">
+          <h3>St. Stephen's School, Habra</h3>
+          <p>Higher Secondary Education</p>
+          <p class="grade">ICSE - 95.4% | ISC - 90.75%</p>
+          <p class="location">Habra, West Bengal</p>
+          <p class="duration">2010 - 2021</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="row-divider"></div>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+      <h2 data-aos="fade-up">Achievements</h2>
+      <div class="achievements-container">
+        <div class="achievement-card" data-aos="fade-up">
+          <h3>Coding</h3>
+          <p>
+            1100+ Problems with Max Streak of 250+ Days across multiple coding
+            platforms.
+          </p>
+        </div>
+        <div class="achievement-card" data-aos="fade-up">
+          <h3>Hackathon</h3>
+          <p>Shortlisted in Gear-Up Season 3 (Internal Round for SIH'24).</p>
+        </div>
+        <div class="achievement-card" data-aos="fade-up">
+          <h3>Academic</h3>
+          <p>
+            Dean's Top 10 List in LPU & Ranked 5th in School in ISC with 95.4%.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="row-divider"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 data-aos="fade-up">Get In Touch</h2>
+      <div class="contact-container">
+        <form id="contact-form" data-aos="fade-up">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links" data-aos="fade-up">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:arghydutta2002@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:arghydutta2002@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <div class="footer-info">
+          <p>Computer Science Student | Full Stack Developer</p>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Arghya Dutta. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/skills.js"></script>
+    <script src="js/coding.js"></script>
+  </body>
+</html>
